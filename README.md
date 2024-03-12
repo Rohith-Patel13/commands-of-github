@@ -36,17 +36,20 @@ git push -u origin main
 # enter username and  password i.e PAT
 
 
-# After changing any file continuation commands for above:
+### After changing any file in local repository continuation commands:
 ```sh
 git add changed_content_file_name
 ```
-
 ```sh
 git commit -m “changed_content_file_name  commit message”
 ```
-# if doing in same and changing at that time
 ```sh
 git push -u origin main
+```
+
+# provides a summary of what is happening in the repository
+```sh
+git status
 ```
 
 # pull latest commits from a remote repository to your local repository
