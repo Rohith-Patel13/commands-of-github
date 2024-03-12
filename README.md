@@ -1,42 +1,44 @@
-# git-commands
+# Git-commands
 
-# create an empty local repository
+# Create an empty local repository
 ```sh
 git init 
 ```
 
-# add to stage area
+# Add to stage area
 ```sh
 git add -A 
 ```
 
-# save changes to local repository
+# Save changes to local repository
 ```sh
 git commit -m “commit message” 
 ```
 
-# display a list of commits in your local repository
+# Display a list of commits in your local repository
 ```sh
 git log
 ```
 
+# Establishes a connection between your local repository and a remote repository hosted on a server, such as GitHub, GitLab, or Bitbucket.
 ```sh
 git remote add origin <repository-url>
 ```
 
+# Used in Git to rename the current branch to "main"
 ```sh
 git branch -M main 
 ```
 
-# push your local repository changes to remote repository
+# Push your local repository changes to remote repository
 ```sh
 git push -u origin main 
 ```
 
-# enter username and  password i.e PAT
+# Enter Username and  Password i.e PAT
 
 
-### After changing any file in local repository continuation commands:
+# After changing any file in local repository continuation commands:
 ```sh
 git add changed_content_file_name
 ```
@@ -47,22 +49,22 @@ git commit -m “changed_content_file_name  commit message”
 git push -u origin main
 ```
 
-# provides a summary of what is happening in the repository
+# Provides a summary of what is happening in the repository
 ```sh
 git status
 ```
 
-# pull latest commits from a remote repository to your local repository
+# Pull latest commits from a remote repository to your local repository
 ```sh
 git pull origin main
 ```
 
-# for removing origin
+# For removing origin
 ```sh
 git remote rm origin 
 ```
 
-# for removing ./git folder
+# For removing ./git folder
 ```sh
 rm -rf .git 
 ```
