@@ -68,3 +68,11 @@ git remote rm origin
 ```sh
 rm -rf .git 
 ```
+
+
+# Creating a branch in github and make PR:
+1) clone the main branch
+2) ```sh
+   git checkout -b <new_branch_name>
+   ```
+
